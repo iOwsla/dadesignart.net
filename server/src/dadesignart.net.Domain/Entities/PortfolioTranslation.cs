@@ -18,7 +18,5 @@ public class PortfolioTranslation : BaseEntity<Guid>, ISeo
 
   public Portfolio Portfolio { get; set; }
 
-  public Guid LanguageId { get; set; }
-
-  public Language Language { get; set; }
+  public LanguageType LanguageType { get; set; }
 }

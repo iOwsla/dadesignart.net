@@ -11,6 +11,5 @@ public class BlogTranslation : BaseEntity<Guid>, ISeo
   public string MetaKeywords { get; set; }
   public Guid BlogId { get; set; }
   public Blog Blog { get; set; }
-  public Guid LanguageId { get; set; }
-  public Language Language { get; set; }
+  public LanguageType LanguageType { get; set; }
 }

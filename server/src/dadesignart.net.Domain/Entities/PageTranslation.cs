@@ -15,6 +15,5 @@ public class PageTranslation : BaseEntity<Guid>, ISeo
 
   public Guid PageId { get; set; }
   public Page Page { get; set; }
-  public Guid LanguageId { get; set; }
-  public Language Language { get; set; }
+  public LanguageType LanguageType { get; set; }
 }
